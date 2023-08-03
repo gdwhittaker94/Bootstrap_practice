@@ -1,0 +1,24 @@
+:root {
+    --DMsans: 'DM Sans', sans-serif;
+    /* 300, 400, 600 */
+    --DMserif: 'DM Serif Display', serif;
+    /* 400 */
+}
+
+body {
+    font-family: var(--DMsans);
+}
+
+.navbar {
+    background-color: #e4e9ef;
+}
+
+h1 {
+    font-family: var(--DMserif);
+}
+
+h2 {
+    font-family: var(--DMsans);
+    font-weight: 400;
+}
+
