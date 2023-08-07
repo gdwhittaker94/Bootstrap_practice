@@ -22,3 +22,11 @@ h2 {
     font-weight: 400;
 }
 
+.dark-container {
+    transition: all 200ms ease-in;
+}
+
+.dark-container:hover {
+    color: white;
+    background: #212529;
+}
