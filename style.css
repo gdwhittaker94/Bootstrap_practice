@@ -30,3 +30,20 @@ h2 {
     color: white;
     background: #212529;
 }
+
+.quadrant img {
+    transition: all 200ms ease-in;
+}
+
+.overlay {
+    opacity: 0;
+    transition: all 200ms ease-in;
+}
+
+.quadrant:hover .overlay {
+    opacity: 1;
+}
+
+.quadrant:hover img {
+    opacity: 0.2;
+}
