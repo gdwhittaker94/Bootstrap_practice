@@ -56,6 +56,35 @@ h2 {
     max-width: 800px;
 }
 
-.carousel-inner {
-    max-height: 500px;
+/* .carousel-item img {
+    height: 500px;
+} */
+
+.testimonialImg {
+    max-height: 150px;
+    max-width: 150px;
+    margin: 10px 10px 20px 10px;
+    border: 3px solid rgb(255, 254, 254);
+    transition: transform 200ms ease;
 }
+
+.testimonialImg:hover {
+    transform: scale(1.1);
+}
+
+.testimonialInfo {
+    font-size: 1.1rem;
+    font-family: var(--DMserif);
+}
+
+.fst-italic {
+    letter-spacing: 0.5px;
+}
+
+.testimonialBG {
+    background-color: rgb(39, 39, 85);
+}
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert();
+} */
