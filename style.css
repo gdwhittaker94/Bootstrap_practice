@@ -85,6 +85,25 @@ h2 {
     background-color: rgb(39, 39, 85);
 }
 
-/* .carousel-control-prev-icon, .carousel-control-next-icon {
-    filter: invert();
-} */
+.contactCTA {
+    font-family: var(--DMserif);
+    transition: transform 200ms ease;
+}
+
+.contactCTA:hover {
+    transform: scale(1.1);
+}
+
+.contactLink {
+    color: #0e64e5;
+    text-decoration-line: none;
+}
+
+.contactBtn:hover {
+    box-shadow:1px 1px 1px 1px black;
+    transform: translateY(1.1);
+}
+
+.contactShadow {
+    box-shadow: 0px 2px 2px 2px white;
+}
