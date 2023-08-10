@@ -25,7 +25,7 @@
   </head>
   <body>
     <!--* NAVBAR -->
-    <!-- <nav class="navbar navbar-expand-md navbar-light p-2">
+    <nav class="navbar navbar-expand-md navbar-light p-2">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,96 +36,346 @@
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#articles">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav> -->
+    </nav>
 
     <!--* HERO SECTION -->
 
-    <!-- <section class="container-fluid p-4">
+    <section class="container-fluid p-4 bg-light">
       <div class="row d-flex justify-content-center">
         <div class="col-8 col-md-5 col-xl-3 my-4">
-          <img src="./img/random_man.jpg" alt="A headshot of a random, well dressed man" class="img-fluid rounded-circle border border-primary border-3">
+          <img src="./img/random_man.jpg" alt="A headshot of a random, well dressed man" class="img-fluid rounded-circle border border-dark border-3 heroImg">
         </div>
         <div class="row">
           <h1 class="text-center fs-2 mb-2">Hi! I'm José Bloggs</h1>
           <h1 class="text-body-secondary text-center fs-4 mb-4"> - I develop webpages and write blogs about programming - </h2>
         </div>
-        <div class="row d-flex justify-content-center">
+        <!-- <div class="row d-flex justify-content-center mb-4">
           <img src="./img/frontend_img.jpg" alt="Illustration of man surrounded by frontend developer icons" class="col-10 col-md-5 col-xl-3 img-fluid rounded-pill">
-        </div>
+        </div> -->
       </div>
-    </section> -->
+    </section>
 
     <!--* ABOUT ME -->
-    <!-- <section class="container-fluid bg-dark">
+    <section class="container-fluid bg-dark" id="about">
       <div class="row justify-content-center text-white text-center p-5">
         <div class="col-10 col-lg-7 col-xl-6 align-items-center my-4">
-          <h2 class="mb-3">Get to know me</h2>
+          <h2 class="mb-3 fw-bold">Get to know me</h2>
           <p>Fin pre fuertes mal derriba llenaba asi. Mostraba director te el deberian no su afeitada entendia rabiando. Prosaico ausentes tu manchada ma seriedad vulgares. No condenasen gr il suficiente distinguir pagarselos. Ma yo avasalla exaltado risuenos seductor amorosas va.</p>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!--* EXPERIENCE SECTION -->
-
+    <section class="bg-light text-black" id="experience">
+      <div class="container-fluid container-md text-center">
+        <div class="row py-4 d-flex justify-content-center justify-content-lg-between">
+          <!-- Web Dev -->
+          <h2 class="mb-4 fw-bold underline">My Experience</h2>
+          <div class="col-10 col-md-4 border border-1 p-4 dark-container">
+            <i class="bi bi-laptop fs-1 text-primary"></i>
+            <h2 class="fw-bold">Web Development</h2>
+            <p>Su es tuvo lo hora diga lila tras come. Tu heroe daban la lo se libro. Por por solo este come lune esto sala una. Nos iba reinaba ceguera verdura una los. Llaman crespo trajes fue balcon fue. Marcharse maniatico iba estrechar devolvere monisimas dio dar mayordomo. </p>
+            <div class="d-flex justify-content-center flex-wrap gap-3 fs-5 mb-4">
+              <span-badge class="badge text-bg-primary p-2">HTML</span-badge>
+              <span-badge class="badge text-bg-primary p-2">CSS</span-badge>
+              <span-badge class="badge text-bg-primary p-2">JavaScript</span-badge>
+              <span-badge class="badge text-bg-primary p-2">Bootstrap</span-badge>
+            </div>
+          </div>
+          <!-- Articles -->
+          <div class="col-10 col-md-4 mt-4 mt-md-0 border border-1 p-4 dark-container">
+            <i class="bi bi-newspaper fs-1 text-primary"></i>
+            <h2 class="fw-bold">Articles</h2>
+            <p>Su es tuvo lo hora diga lila tras come. Tu heroe daban la lo se libro. Por por solo este come lune esto sala una. Nos iba reinaba ceguera verdura una los. Llaman crespo trajes fue balcon fue. Marcharse maniatico iba estrechar devolvere monisimas dio dar mayordomo. </p>
+            <div class="d-flex justify-content-center flex-wrap gap-3 fs-5 mb-4">
+              <span-badge class="badge text-bg-primary p-2">Writing</span-badge>
+              <span-badge class="badge text-bg-primary p-2">Editing</span-badge>
+              <span-badge class="badge text-bg-primary p-2">Blogs</span-badge>
+            </div>
+          </div>
+          <!-- Studies -->
+          <div class="col-10 col-md-4 mt-4 mt-md-0 border border-1 p-4 dark-container">
+            <i class="bi bi-journal-code fs-1 text-primary"></i>
+            <h2 class="fw-bold">Studies</h2>
+            <p>Su es tuvo lo hora diga lila tras come. Tu heroe daban la lo se libro. Por por solo este come lune esto sala una. Nos iba reinaba ceguera verdura una los. Llaman crespo trajes fue balcon fue. Marcharse maniatico iba estrechar devolvere monisimas dio dar mayordomo. </p>
+            <div class="d-flex justify-content-center flex-wrap gap-3 fs-5 mb-4">
+              <span-badge class="badge text-bg-primary p-2">4Geeks</span-badge>
+              <span-badge class="badge text-bg-primary p-2">META</span-badge>
+              <span-badge class="badge text-bg-primary p-2">Udemy</span-badge>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- *PROJECTS-->
-
+    <section class="d-flex flex-column p-4 text-center bg-light" id="projects">
+      <h2 class="fw-bold underline">My Projects</h2>
+      <h5>Here is some of my recent work:</h5>
+      <!-- Project Gallery -->
+      <div class="container text-center mt-4">
+        <div class="row g-4">
+          <!-- QUADRANT1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="position-relative quadrant">
+              <!-- Img -->
+              <img class="img-fluid rounded-1" src="./img/home_setup.jpg" alt="Project 1">
+              <!-- Overlay Text -->
+              <div class="position-absolute top-50 start-50 translate-middle text-black w-100 overlay">
+                <p class="fs-3 fw-bold">Project 1</p>
+                <!-- Link Icons -->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/" target="_blank" class="me-4">
+                    <i class="bi bi-github text-black" style="font-size: 50px;"></i>
+                  </a>
+                  <a href="https://example.com/" target="_blank">
+                    <i class="bi bi-arrow-up-right-square text-black"  style="font-size: 50px;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- QUADRANT2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="position-relative quadrant">
+              <!-- Img -->
+              <img class="img-fluid rounded-1" src="./img/code.jpg" alt="Project 1">
+              <!-- Overlay Text -->
+              <div class="position-absolute top-50 start-50 translate-middle text-black w-100 overlay">
+                <p class="fs-3 fw-bold">Project 2</p>
+                <!-- Link Icons -->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/" target="_blank" class="me-4">
+                    <i class="bi bi-github text-black" style="font-size: 50px;"></i>
+                  </a>
+                  <a href="https://example.com/" target="_blank">
+                    <i class="bi bi-arrow-up-right-square text-black"  style="font-size: 50px;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- QUADRANT3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="position-relative quadrant">
+              <!-- Img -->
+              <img class="img-fluid rounded-1" src="./img/gym.jpg" alt="Project 1">
+              <!-- Overlay Text -->
+              <div class="position-absolute top-50 start-50 translate-middle text-black w-100 overlay">
+                <p class="fs-3 fw-bold">Project 3</p>
+                <!-- Link Icons -->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/" target="_blank" class="me-4">
+                    <i class="bi bi-github text-black" style="font-size: 50px;"></i>
+                  </a>
+                  <a href="https://example.com/" target="_blank">
+                    <i class="bi bi-arrow-up-right-square text-black"  style="font-size: 50px;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- QUADRANT4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="position-relative quadrant">
+              <!-- Img -->
+              <img class="img-fluid rounded-1" src="./img/website.jpg" alt="Project 1">
+              <!-- Overlay Text -->
+              <div class="position-absolute top-50 start-50 translate-middle text-black w-100 overlay">
+                <p class="fs-3 fw-bold">Project 4</p>
+                <!-- Link Icons -->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/" target="_blank" class="me-4">
+                    <i class="bi bi-github text-black" style="font-size: 50px;"></i>
+                  </a>
+                  <a href="https://example.com/" target="_blank">
+                    <i class="bi bi-arrow-up-right-square text-black"  style="font-size: 50px;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- QUADRANT5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="position-relative quadrant">
+              <!-- Img -->
+              <img class="img-fluid rounded-1" src="./img/holding_phone.jpg" alt="Project 1">
+              <!-- Overlay Text -->
+              <div class="position-absolute top-50 start-50 translate-middle text-black w-100 overlay">
+                <p class="fs-3 fw-bold">Project 5</p>
+                <!-- Link Icons -->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/" target="_blank" class="me-4">
+                    <i class="bi bi-github text-black" style="font-size: 50px;"></i>
+                  </a>
+                  <a href="https://example.com/" target="_blank">
+                    <i class="bi bi-arrow-up-right-square text-black"  style="font-size: 50px;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- QUADRANT6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="position-relative quadrant">
+              <!-- Img -->
+              <img class="img-fluid rounded-1" src="./img/typing_on_keyboard.jpg" alt="Project 1">
+              <!-- Overlay Text -->
+              <div class="position-absolute top-50 start-50 translate-middle text-black w-100 overlay">
+                <p class="fs-3 fw-bold">Project 6</p>
+                <!-- Link Icons -->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/" target="_blank" class="me-4">
+                    <i class="bi bi-github text-black" style="font-size: 50px;"></i>
+                  </a>
+                  <a href="https://example.com/" target="_blank">
+                    <i class="bi bi-arrow-up-right-square text-black"  style="font-size: 50px;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn btn-info fw-bold">
+                View More Projects
+                <i class="bi bi-arrow-right-circle-fill my-3"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- *ARTICLES -->
-    <!-- <section>
-      <h2 class="text-center">Articles</h2>
+    <section class="bg-light py-4" id="articles">
+      <h2 class="text-center fw-bold underline">Articles</h2>
       <div class="card w-75 mx-auto mt-4 articles-container">
         <div class="card-header fw-bold">
           Featured
         </div>
         <ul class="list-group list-group-flush">
           <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">How to Find Good First Issues on Github</li>
-          <li class="list-group-item">How to Build a JavaScript Utility Library like Lodash</li>
-          <li class="list-group-item">How to Add ESLint to Your React Project</li>
-          <li class="list-group-item">How to Use Web APIs in Your Coding Projects</li>
-          <li class="list-group-item">How to Set Up Application Performance Monitoring for Node.js Applications Using Elastic</li>
-          <li class="list-group-item">How to Perform CRUD Operations – JavaScript and SQL Example</li>
+          <li class="list-group-item articleEffect">How to Find Good First Issues on Github</li>
+          <li class="list-group-item articleEffect">How to Build a JavaScript Utility Library like Lodash</li>
+          <li class="list-group-item articleEffect">How to Add ESLint to Your React Project</li>
+          <li class="list-group-item articleEffect">How to Use Web APIs in Your Coding Projects</li>
+          <li class="list-group-item articleEffect">How to Set Up Application Performance Monitoring for Node.js Applications Using Elastic</li>
+          <li class="list-group-item articleEffect">How to Perform CRUD Operations – JavaScript and SQL Example</li>
           </a>
         </ul>
       </div>
-      <div class="w-75 mx-auto d-flex justify-content-center mt-5">
+      <div class="w-75 mx-auto d-flex justify-content-center mt-4">
         <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
           <button type="button" class="btn btn-info fw-bold">
-            View More Projects
+            View More Articles
             <i class="bi bi-arrow-right-circle-fill my-3"></i>
           </button>
         </a>
       </div>
-    </section> -->
+    </section>
 
     <!-- *TESTIMONIALS -->
-
+    <section class="bg-light pt-4 pb-2" id="testimonials">
+      <div class="text-center px-3">
+        <h2 class="fw-bold underline">Testimonials</h2>
+        <h5>Read what these people have to say about my work:</h5>
+      </div>
+      <!-- Carousel -->
+      <div id="carouselTestimonials" class="carousel slide mx-4 mx-md-auto mt-5">
+        <div class="carousel-inner">
+          <!-- Slide1 -->
+          <div class="carousel-item active rounded-5 px-2 px-sm-5 py-4 testimonialBG border border-3 border-black">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+              <img src="./img/person1.jpg" alt="Photo of Mark" class="rounded-circle testimonialImg mb-4">
+              <p class="w-75 text-center text-white fst-italic mb-4">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis aliquam repellat necessitatibus aliquid accusantium eius suscipit in recusandae modi ut tempora est asperiores eum?"
+              </p>
+              <div class="text-center text-danger-emphasis fw-bold testimonialInfo">
+                <p>
+                  - Mark -
+                  <br>
+                  Project Manager at Web Development
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide2 -->
+          <div class="carousel-item rounded-5 px-2 px-sm-5 py-4 testimonialBG border border-3 border-black">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+              <img src="./img/person2.jpg" alt="Photo of Stacy" class="rounded-circle testimonialImg mb-4">
+              <p class="w-75 text-center text-white fst-italic mb-4">
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias aspernatur soluta facere, expedita placeat velit nostrum veritatis aliquid, dignissimos ea exercitationem totam cum! Adipisci, maxime!"
+              </p>
+              <div class="text-center text-danger-emphasis fw-bold testimonialInfo">
+                <p>
+                  - Stacy -
+                  <br>
+                  App Development at Media Party
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide3 -->
+          <div class="carousel-item rounded-5 px-2 px-sm-5 py-4 testimonialBG border border-3 border-black">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+              <img src="./img/person3.jpg" alt="Photo of Bruno" class="rounded-circle testimonialImg mb-4">
+              <p class="w-75 text-center text-white fst-italic mb-4">
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita omnis nemo cumque blanditiis, recusandae nobis quae maxime, nihil exercitationem reiciendis itaque, provident eum quod facere."
+              </p>
+              <div class="text-center text-danger-emphasis fw-bold testimonialInfo">
+                <p>
+                  - Bruno -
+                  <br>
+                  Developer Wizard at Hogwarts
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
 
     <!-- *CONTACT -->
-    <section class="bg-dark">
-      <div class="container w-75">
+    <section class="bg-light py-5 contactSection" id="contact">
+      <div class="container w-75 contactContainer">
         <div class="container text-center text-white bg-primary p-5 rounded-4 contactShadow">
           <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-4 fw-bold fs-2 contactCTA">
+            <div class="col-12 col-md-4 mb-4 mb-md-0 fw-bold fs-2 contactCTA">
               Let's get in touch!
             </div>
-            <div class="col-12 col-md-4 fw-bold">
+            <div class="col-12 col-md-4 mb-4 mb-md-0 fw-bold">
             Want to build something awesome on the web?
             <br>
             I'm your man!
@@ -143,6 +393,42 @@
       </div>
     </section>
 
+
+    <!-- *FOOTER -->
+    <footer class="bg-dark d-flex flex-column align-items-center justify-content-center py-4 text-white fw-bolder">
+      <img src="./img/bootstrap_logo.png" alt="Bootstrap logo" class="img-fluid mb-3 bootstrapFooter">
+      <p class="text-center mb-1">
+        I learn and create everyday.
+      </p>
+      <p class="mb-4">
+        Let's create a project together!
+      </p>
+      <div class="d-flex flex-wrap align-items-center justify-content-center row-gap-3">
+        <!-- Twitter -->
+        <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer" class="mx-3 iconsFooter">
+          <i class="bi bi-twitter fs-4"></i>
+        </a>
+        <!-- Github -->
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="mx-3 iconsFooter">
+          <i class="bi bi-github fs-4"></i>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" class="mx-3 iconsFooter">
+          <i class="bi bi-linkedin fs-4"></i>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="mx-3 iconsFooter">
+          <i class="bi bi-instagram fs-4"></i>
+        </a>
+        <!-- Email -->
+        <a href="mailto:josebloggs@myemail.com" target="_blank" rel="noopener noreferrer" class="mx-3 iconsFooter">
+          <i class="bi bi-envelope fs-4"></i>
+        </a>
+      </div>
+      <div class="my-4 text-light copyright">
+        Created by José Bloggs (2023) &#169;
+      </div>
+    </footer>
 
   </body>
 </html>
