@@ -3,6 +3,6 @@ I used this [guided project](https://www.youtube.com/watch?v=QCw0L6FupQ0&t) from
 
 See the finished product below or check out the [live version here](https://guydavidwhittaker.com/Bootstrap_website_practice/).
 
-See the finished product below or check out the <a href="https://guydavidwhittaker.com/Bootstrap_website_practice/" target="_blank">live version here</a>
+See the finished product below or check out the <a href="https://guydavidwhittaker.com/Bootstrap_website_practice/" target="_blank">live version HERE</a>
 
 ![ezgif com-optimize](https://github.com/gdwhittaker94/Bootstrap_website_practice/assets/105855731/c70d5a8a-dfed-444d-a339-fc19560c1ec4)
